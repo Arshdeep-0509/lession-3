@@ -4,6 +4,8 @@
 :root{
     --primary-color : #818CF8;
     --dark-grey : #6B7280;
+    --off-white : #E5E7EB;
+
 }
 
 body{
@@ -123,4 +125,24 @@ text-align: center;
     color: var(--primary-color);
   }
 
-  
+  /* sections */
+
+
+.section{
+
+    padding: 2rem;
+
+}
+
+.section h1 {
+
+text-align: center;
+
+}
+
+
+
+.ow{
+ background-color: var(--off-white);
+ 
+}
