@@ -2,7 +2,7 @@
 
 
 :root{
-    --primary-color : #6366F1;
+    --primary-color : #818CF8;
 
 }
 
@@ -63,3 +63,36 @@ border-radius: 0.5rem;
     display: inline;
 padding: 0rem  1rem;
 }
+
+  /* nav */
+
+  .navigation{
+      background-color: var(--primary-color);
+      color: white;
+      padding: 0.3rem;
+      border-bottom-left-radius: 1rem;
+  }
+
+.navigation .nav-pills{
+
+    text-align: right;
+}
+
+
+ .navigation .nav-brand{
+
+font-weight: bold;
+font-size: 1.1rem;
+
+}
+
+  .navigation .link {
+
+color: white;
+
+  }
+  
+  .navigation{
+font-weight: bold;
+
+  }
