@@ -3,7 +3,7 @@
 
 :root{
     --primary-color : #818CF8;
-
+    --dark-grey : #6B7280;
 }
 
 body{
@@ -96,3 +96,31 @@ color: white;
 font-weight: bold;
 
   }
+
+  /* headers */
+
+  .hero{
+      padding: 2rem;
+  }
+
+  .hero-image{
+ max-width: 300px;
+ display: block;
+ margin: auto;
+  }
+
+  .hero-text{
+
+font-size: 2rem;
+color: var(--dark-grey);
+padding-top: 1rem;
+text-align: center;
+
+
+  }
+  .hero .hero-text .header-inverted {
+
+    color: var(--primary-color);
+  }
+
+  
